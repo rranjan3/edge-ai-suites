@@ -34,6 +34,6 @@ SPDX-License-Identifier: Apache-2.0
 |------|---------|-------------|
 | 8086 | InfluxDB | Time-series DB — org: uav-sdk, bucket: telemetry |
 | 3000 | Grafana | Dashboards — admin / uav-sdk |
-| 9090 | metrics-manager | REST API + SSE stream — container-internal only; use `docker exec metrics-manager curl -sf http://localhost:9090/health` |
+| 9090 | metrics-manager | REST API + SSE stream — container-internal only; use `docker exec metrics-mgr curl -sf http://localhost:9090/health` |
 | 9273 | metrics-manager | Prometheus exposition (Telegraf) — container-internal only |
 

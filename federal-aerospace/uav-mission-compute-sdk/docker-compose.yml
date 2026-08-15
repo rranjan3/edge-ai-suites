@@ -336,7 +336,7 @@ services:
 
   metrics-manager:
     image: intel/metrics-manager:2026.1.0
-    container_name: metrics-manager
+    container_name: metrics-mgr
     profiles: ["observability"]
     restart: unless-stopped
     privileged: true
